@@ -1,0 +1,87 @@
+.card {
+  margin: 20px 20px;
+  height: 100%;
+  width: 75%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-content: center;
+  padding: 20px;
+  background-color: #343A40 !important;
+}
+
+.main__body{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.btn{
+  background-color: #43cea2 !important;
+  border: 0 !important;
+  color: #fff !important;
+}
+
+.btn:hover{
+  background-color: #185a9d !important;
+}
+
+.universityName {
+  background: linear-gradient(to right, #43cea2, #185a9d);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: 25px;
+  font-weight: bold;
+}
+
+.nav-item{
+  background-color: #fff;
+  color: #343A40 !important;
+  margin-right: 5px;
+}
+
+.active{
+  background-color: #43cea2 !important;
+  border: none !important;
+  color: #fff !important;
+}
+
+.table-dark{
+  border-color: #43cea2 !important;
+}
+
+.main__home__body{
+  background-image:linear-gradient(to right, #43cea2, #185a9d);
+  height: 100vh;
+}
+
+.main__home__links{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px;
+  height: 100%;
+}
+
+.mainLinks{
+  width: 25%;
+  height: auto;
+  background-color: #343A40 !important;
+  color: #fff;
+  text-align: center;
+}
+
+.studentcard{
+  width: 45%;
+  height: auto;
+  color: white;
+}
+
+label {
+  color:#fff;
+}
